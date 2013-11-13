@@ -194,8 +194,9 @@ blockquote {
 
 ul, ol, dl {
   float: left;
-  margin-top: 55px;
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-right: 20px;
 }
 
 ul li {
@@ -261,7 +262,6 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
@@ -289,10 +289,6 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
-}
-
-#header_wrap .inner {
-  padding: 50px 10px 30px 10px;
 }
 
 #project_title {
@@ -357,14 +353,18 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  width: 740px;
+  margin-left: 250px;
 }
 
 #footer_wrap {
   background: #212121;
 }
 
-
+#center {
+  margin: 0px auto;
+  width: 1000px;
+}
 
 /*******************************************************************************
 Small Device Styles
