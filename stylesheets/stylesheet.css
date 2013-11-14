@@ -199,6 +199,12 @@ ul, ol, dl {
   padding-right: 20px;
 }
 
+.p {
+  margin-left:100px;
+  padding-top: 25px;
+  min-height: 500px;
+}
+
 ul li {
   padding-left: 20px;
   font-size: 18px;
