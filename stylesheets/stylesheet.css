@@ -370,6 +370,7 @@ Full-Width Styles
 #center {
   margin: 0px auto;
   width: 1000px;
+  overflow: auto;
 }
 
 /*******************************************************************************
